@@ -1,4 +1,4 @@
-# Assessment: Javascript Katas 3 #
+# Assessment: JavaScript Katas 3 #
 
 ### Overview ###
 
@@ -14,7 +14,7 @@ Several of the katas will use the following sample array, which you can copy an
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 ```
 
-Note that the first 10 katas should seem familiar: they are a repeat of the ones you did in **Assessment: Javascript Katas 1**. This time you will be inserting the results into your HTML page rather than simply logging them to the console.
+Note that the first 10 katas should seem familiar: they are a repeat of the ones you did in **Assessment: JavaScript Katas 1**. This time you will be inserting the results into your HTML page rather than simply logging them to the console.
 
 ### Katas ###
 
@@ -44,4 +44,4 @@ Note that the first 10 katas should seem familiar: they are a repeat of the ones
 
 ### Bonus ###
 
-If you would like an additional challenge, try completing each of the above again _without using any for or while loops_.
+If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
