@@ -45,3 +45,9 @@ Note that the first 10 katas should seem familiar: they are a repeat of the ones
 ### Bonus ###
 
 If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
+
+### Submission
+
+Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, please submit your 
+Gitlab Pages url (ex: https://username.gitlab.io/js-katas-03/) and, in GitLab, add KA_grading as a member on 
+your project with "Reporter" permission.
