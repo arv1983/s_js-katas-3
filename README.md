@@ -46,7 +46,7 @@ If you would like an additional challenge, try completing each of the above aga
 
 ### *Optional* Bonus ###
 
-These problems involve the use of CSS styling, and require a background knowledge in CSS to complete. We'll cover this later, but feel free to do some independent research if you would like to earn some extra points!
+*These problems involve the use of CSS styling, and require a background knowledge in CSS to complete. We'll cover this later, but feel free to do some independent research if you would like to earn some extra points!*
 
 19.  Display 20 solid gray rectangles, each 20px high and 100px wide.
 20.  Display 20 solid gray rectangles, each 20px high, with widths ranging evenly from 105px to 200px (remember #4, above).
