@@ -36,15 +36,23 @@ Note that the first 10 katas should seem familiar: they are a repeat of the ones
 16.  Display the sum of all the elements in sampleArray.
 17.  Display the smallest element in sampleArray.
 18.  Display the largest element in sampleArray.
+
+
+
+
+### Bonus ###
+
+If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
+
+### *Optional* Bonus ###
+
+These problems involve the use of CSS styling, and require a background knowledge in CSS to complete. We'll cover this later, but feel free to do some independent research if you would like to earn some extra points!
+
 19.  Display 20 solid gray rectangles, each 20px high and 100px wide.
 20.  Display 20 solid gray rectangles, each 20px high, with widths ranging evenly from 105px to 200px (remember #4, above).
 21.  Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
 22.  As in #21, but alternate colors so that every other rectangle is red.
 23.  As in #21, but color the rectangles with even widths red. 
-
-### Bonus ###
-
-If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
 
 ### Submission
 
