@@ -4,7 +4,7 @@
 
 You will create a single web page, with a labelled heading for each individual kata followed by your solution. For these katas, instead of using `console.log()` or `document.write()`, you are **required** to insert your results into the HTML using the `document.createElement()` and `node.appendChild()` methods.
 
-*Name your functions kata1(), kata2(), kata3(), etc.  This will allow our grading testsuite to discover your functions*
+*Name your repository 'katas3' and your Javascript file 'katas3.js'...also, your functions should be named kata1(), kata2(), kata3(), etc.  This will allow our grading testsuite to discover your functions*
 
 The easiest way to get started is by copying the example file from **Mini-Lesson: Inserting new Elements within a Page**. You can copy and paste from the code embedded in the lesson.
 
