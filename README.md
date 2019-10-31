@@ -16,20 +16,18 @@ Several of the katas will use the following sample array, which you can copy an
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 ```
 
-Note that the first 10 katas should seem familiar: they are a repeat of the ones you did in **Assessment: JavaScript Katas 1**. This time you will be inserting the results into your HTML page rather than simply logging them to the console.
-
 ### Katas ###
 
-1.  Display the numbers from 1 to 20. _(1, 2, 3, ...,19, 20)_
-2.  Display the even numbers from 1 to 20. _(2, 4, 6, ..., 18, 20)_
-3.  Display the odd numbers from 1 to 20. _(1, 3, 5, ..., 17, 19)_
+1.  Display the numbers from -1 to -25. _(-1, -2, -3, ..., -24, -25)_
+2.  Display the numbers from -25 to -1. _(-25, -24, -23, ..., -2, -1)_
+3.  Display the odd numbers from 25 to -25. _(25, 23, 21, ..., -23, -25)_
 4.  Display the multiples of 5 up to 100. _(5, 10, 15, ..., 95, 100)_
 5.  Display the [square numbers](https://simple.wikipedia.org/wiki/Square_number) from 1 up to 100. _(1, 4, 9, ..., 81, 100)_
 6.  Display the numbers counting backwards from 20 to 1. _(20, 19, 18, ..., 2, 1)_
 7.  Display the even numbers counting backwards from 20 to 1. _(20, 18, 16, ..., 4, 2)_
 8.  Display the odd numbers from 20 to 1, counting backwards. _(19, 17, 15, ..., 3, 1)_
-9.  Display the multiples of 5, counting down from 100 to 1. _(100, 95, 90, ..., 10, 5)_
-10.  Display the square numbers, counting down from 100. _(100, 81, 64, ..., 4, 1)_
+9.  Display the numbers divisible by 3 and the numbers divisible by 7 up through 100. _(3, 6, 7, ..., 98, 99)_
+10.  Display the odd numbers divisible by 5 up through 100. _(5, 15, 25, …, 85, 95)_
 11.  Display the 20 elements of sampleArray. _(469, 755, 244, ..., 940, 472)_
 12.  Display all the even numbers contained in sampleArray. _(244, 758, 450, ..., 940, 472)_
 13.  Display all the odd numbers contained in sampleArray. _(469, 755, 245, ..., 179, 535)_
@@ -46,7 +44,7 @@ Note that the first 10 katas should seem familiar: they are a repeat of the ones
 
 If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
 
-### *Optional* Bonus ###
+### *Optional* Bonus (5 points) ###
 
 *These problems involve the use of CSS styling, and require a background knowledge in CSS to complete. We'll cover this later, but feel free to do some independent research if you would like to earn some extra points!*
 
