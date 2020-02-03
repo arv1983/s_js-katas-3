@@ -45,11 +45,11 @@ Se você gosta de um desafio extra, tente completar cada um dos itens acima nova
 
 *Estes problemas envolvem o uso de estilização CSS, e exigem um certo conhecimento de CSS para serem completados. Iremos cobrir isso mais adiante, mas sinta-se a vontade para fazer uma pesquisa por conta própria se quiser ganhar alguns pontos extras!*
 
-19. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e 100px de largura.
-20. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e larguras variando uniformemente de 105px a 200px (lembre-se do #4 acima).
-21. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e com larguras em pixels determinadas pelos 20 elementos do sampleArray.
-22. Como no #21, mas alternando cores para que retângulo sim, retângulo não seja vermelho.
-23. Como no #21, mas pinte os retângulos de largura par de vermelho.
+1. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e 100px de largura.
+2. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e larguras variando uniformemente de 105px a 200px (lembre-se do #4 acima).
+3. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e com larguras em pixels determinadas pelos 20 elementos do sampleArray.
+4. Como no Bônus #3, mas alternando cores para que retângulo sim, retângulo não seja vermelho.
+5. Como no Bônus #3, mas pinte os retângulos de largura par de vermelho.
 
 ### Envio
 
