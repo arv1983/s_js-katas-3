@@ -1,61 +1,56 @@
-# Assessment: JavaScript Katas 3 #
+# Avaliação: Katas de JavaScript 3
 
-### Overview ###
+### Visão Geral
 
-You will create a single web page, with a labelled heading for each individual kata followed by your solution. For these katas, instead of using `console.log()` or `document.write()`, you are **required** to insert your results into the HTML using the `document.createElement()` and `node.appendChild()` methods.
+Você irá criar uma única página web com um cabeçalho identificado para cada kata seguido de sua solução. Nesses katas, em vez de usar `console.log()` ou `document.write()`, você **precisa** inserir seus resultados no HTML usando os métodos `document.createElement()` e `node.appendChild()`.
 
-*Name your repository 'katas3' and your Javascript file 'katas3.js'...also, your functions should be named kata1(), kata2(), kata3(), etc.  This will allow our grading testsuite to discover your functions*
+*Dê o nome 'katas3' ao seu repositório e 'katas3.js' ao seu arquivo Javascript; além disso, suas funções devem ter os nomes kata1(), kata2(), kata3(), etc. Isso permitirá que nossos testes encontrem suas funções*
 
-The easiest way to get started is by copying the example file from **Mini-Lesson: Inserting new Elements within a Page**. You can copy and paste from the code embedded in the lesson.
+A maneira mais fácil de começar é copiando o arquivo de exemplo da **Mini-Aula: Inserindo novos elementos em uma Página**. Você pode copiar e colar o código que está incorporado na aula.
 
-You can keep adding each new kata onto the bottom of that page.
+Você pode continuar adicionando cada novo kata no final da página.
 
-Several of the katas will use the following sample array, which you can copy and paste into your code:
+Vários destes katas usarão a seguinte amostra de array, que você pode copiar e colar em seu código:
 
 ```js
-const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+    const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 ```
 
 ### Katas ###
 
-1.  Display the numbers from 1 to 25: _(1, 2, 3, ..., 24, 25)_
-2.  Display the numbers from 25 to 1: _(25, 24, 23, …, 2, 1)_
-3.  Display the numbers from -1 to -25: _(-1, -2, -3, ..., -24, -25)_
-4.  Display the numbers from -25 to -1: _(-25, -24, -23, ..., -2, -1)_
-5.  Display the odd numbers from 25 to -25: _(25, 23, 21, ..., -23, -25)_
-6.  Display the numbers divisible by 3 up through 100: _(3, 6, 9, …, 96, 99)_  
-7.  Display the numbers divisible by 7 up through 100: _(7, 14, 21, …, 91, 98)_ 
-8.  Display the numbers divisible by 3 and the numbers divisible by 7 down from 100: _(99, 98, 96, 93, 91, ..., 14, 12, 9, 7, 6, 3)_
-9.  Display the odd numbers divisible by 5 up through 100: _(5, 15, 25, …, 85, 95)_
-10.  Display the 20 elements of sampleArray. _(469, 755, 244, ..., 940, 472)_
-11.  Display all the even numbers contained in sampleArray. _(244, 758, 450, ..., 940, 472)_
-12.  Display all the odd numbers contained in sampleArray. _(469, 755, 245, ..., 179, 535)_
-13.  Display the numbers divisible by 8 in sampleArray: _(712, 456, ..., 472)_
-14.  Display the square of each element in sampleArray. _(219961, 570025, ..., 222784)_
-15.  Display the sum of all the numbers from 1 to 20.
-16.  Display the sum of all the elements in sampleArray.
-17.  Display the smallest element in sampleArray.
-18.  Display the largest element in sampleArray.
+1.  Exibir os números de 1 a 25: _(1, 2, 3, …, 24, 25)_
+2.  Exibir os números de 25 a 1: _(25, 24, 23, …, 2, 1)_
+3.  Exibir os números de -1 a -25: _(-1, -2, -3, …, -24, -25)_
+4.  Exibir os números de -25 a -1: _(-25, -24, -23, …, -2, -1)_
+5.  Exibir os números ímpares de 25 a -25: _(25, 23, 21, …, -23, -25)_
+6.  Exibir os números divisíveis por 3 até o 100: _(3, 6, 9, …, 96, 99)_
+7.  Exibir os números divisíveis por 7 até o 100: _(7, 14, 21, …, 91, 98)_
+8.  Exibir os números divisíveis por 3 e os números divisíveis por 7 regressivamente a partir do 100: _(99, 98, 96, 93, 91, …, 14, 12, 9, 7, 6, 3)_
+9.  Exibir os números ímpares divisíveis por 5 até o 100: _(5, 15, 25, …, 85, 95)_
+10. Exibir os 20 elementos de sampleArray. _(469, 755, 244, …, 940, 472)_
+11. Exibir todos os números pares contidos em sampleArray. _(244, 758, 450, …, 940, 472)_
+12. Exibir todos os números ímpares contidos em sampleArray. _(469, 755, 245, …, 179, 535)_
+13. Exibir os números divisíveis por 8 em sampleArray: _(712, 456, …, 472)_
+14. Exibir o quadrado de cada elemento de sampleArray. _(219961, 570025, …, 222784)_
+15. Exibir a soma de todos os números de 1 a 20.
+16. Exibir a soma de todos os elementos de sampleArray.
+17. Exibir o menor elemento de sampleArray.
+18. Exibir o maior elemento de sampleArray.
 
+### Bônus
 
+Se você gosta de um desafio extra, tente completar cada um dos itens acima novamente _sem usar_ quaisquer loops `for` ou `while`.
 
+### *Opcional* Bônus (5 pontos)
 
-### Bonus ###
+*Estes problemas envolvem o uso de estilização CSS, e exigem um certo conhecimento de CSS para serem completados. Iremos cobrir isso mais adiante, mas sinta-se a vontade para fazer uma pesquisa por conta própria se quiser ganhar alguns pontos extras!*
 
-If you would like an additional challenge, try completing each of the above again _without using any `for` or `while` loops_.
+19. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e 100px de largura.
+20. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e larguras variando uniformemente de 105px a 200px (lembre-se do #4 acima).
+21. Exibir 20 retângulos cinza sólido, cada um com 20px de altura e com larguras em pixels determinadas pelos 20 elementos do sampleArray.
+22. Como no #21, mas alternando cores para que retângulo sim, retângulo não seja vermelho.
+23. Como no #21, mas pinte os retângulos de largura par de vermelho.
 
-### *Optional* Bonus (5 points) ###
+### Envio
 
-*These problems involve the use of CSS styling, and require a background knowledge in CSS to complete. We'll cover this later, but feel free to do some independent research if you would like to earn some extra points!*
-
-19.  Display 20 solid gray rectangles, each 20px high and 100px wide.
-20.  Display 20 solid gray rectangles, each 20px high, with widths ranging evenly from 105px to 200px (remember #4, above).
-21.  Display 20 solid gray rectangles, each 20px high, with widths in pixels given by the 20 elements of sampleArray.
-22.  As in #21, but alternate colors so that every other rectangle is red.
-23.  As in #21, but color the rectangles with even widths red. 
-
-### Submission
-
-Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, please submit your 
-Gitlab Pages url (ex: https://username.gitlab.io/js-katas-03/) and, in GitLab, add KA_grading as a member on 
-your project with "Reporter" permission.
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-03/) e, no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
