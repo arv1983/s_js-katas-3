@@ -53,4 +53,4 @@ Se você gosta de um desafio extra, tente completar cada um dos itens acima nova
 
 ### Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-03/) e, no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-03/) e, no GitLab, adicione o grupo `ka-br-correcoes` como membro do seu projeto com a permissão "Reporter".
