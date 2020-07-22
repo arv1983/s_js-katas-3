@@ -1,4 +1,4 @@
-# Avaliação: Katas de JavaScript 3
+# Entrega: Katas de JavaScript 3
 
 ### Visão Geral
 
