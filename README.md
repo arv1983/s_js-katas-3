@@ -2,7 +2,7 @@
 
 ### Visão Geral
 
-Faça o _fork_ [deste repositório](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-3). Preencha os arquivos `index.html` e `katas3.js` de acordo com o que se pede.
+Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-3), faça o fork e clone o repo. Depois preencha os arquivos `index.html` e `katas3.js` de acordo com o que se pede.
 
 Você irá criar uma única página web com um cabeçalho identificado para cada kata seguido de sua solução. Nesses katas, em vez de usar `console.log()` ou `document.write()`, você **precisa** inserir seus resultados no HTML usando os métodos `document.createElement()` e `node.appendChild()`.
 
