@@ -2,19 +2,13 @@
 
 ### Visão Geral
 
-Você irá criar uma única página web com um cabeçalho identificado para cada kata seguido de sua solução. Nesses katas, em vez de usar `console.log()` ou `document.write()`, você **precisa** inserir seus resultados no HTML usando os métodos `document.createElement()` e `node.appendChild()`.
+Faça o _fork_ [deste repositório](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-3). Preencha os arquivos `index.html` e `katas3.js` de acordo com o que se pede.
 
-*Dê o nome 'katas3' ao seu repositório e 'katas3.js' ao seu arquivo Javascript; além disso, suas funções devem ter os nomes kata1(), kata2(), kata3(), etc. Isso permitirá que nossos testes encontrem suas funções*
+Você irá criar uma única página web com um cabeçalho identificado para cada kata seguido de sua solução. Nesses katas, em vez de usar `console.log()` ou `document.write()`, você **precisa** inserir seus resultados no HTML usando os métodos `document.createElement()` e `node.appendChild()`.
 
 A maneira mais fácil de começar é copiando o arquivo de exemplo da **Mini-Aula: Inserindo novos elementos em uma Página**. Você pode copiar e colar o código que está incorporado na aula.
 
 Você pode continuar adicionando cada novo kata no final da página.
-
-Vários destes katas usarão a seguinte amostra de array, que você pode copiar e colar em seu código:
-
-```js
-    const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-```
 
 ### Katas ###
 
@@ -53,4 +47,4 @@ Se você gosta de um desafio extra, tente completar cada um dos itens acima nova
 
 ### Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-03/) e, no GitLab, adicione o grupo `ka-br-correcoes` como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuario.gitlab.io/js-katas-03/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
