@@ -1,6 +1,6 @@
 # Entrega: Katas de JavaScript 3
 
-### Visão Geral
+## Visão Geral
 
 Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-3), faça o fork e clone o repo. Depois preencha os arquivos `index.html` e `katas3.js` de acordo com o que se pede.
 
@@ -10,7 +10,7 @@ A maneira mais fácil de começar é copiando o arquivo de exemplo da **Mini-Aul
 
 Você pode continuar adicionando cada novo kata no final da página.
 
-### Katas ###
+## Katas 
 
 1.  Exibir os números de 1 a 25: _(1, 2, 3, …, 24, 25)_
 2.  Exibir os números de 25 a 1: _(25, 24, 23, …, 2, 1)_
@@ -47,4 +47,4 @@ Se você gosta de um desafio extra, tente completar cada um dos itens acima nova
 
 ### Envio
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuario.gitlab.io/js-katas-03/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, ** envie sua url do Gitlab Pages (ex: https://nomedeusuario.gitlab.io/s\_js-katas-3/) ** e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
