@@ -12,6 +12,10 @@ Você pode continuar adicionando cada novo kata no final da página.
 
 ## Katas 
 
+### Nesse katas nós não vamos utilizar métodos de iteração de array(forEach, map, filter, reduce, sort...) e nem (math min, math max).
+
+### Vamos utilizar apenas estruturas de repetição como (while, for ou do while)
+
 1.  Exibir os números de 1 a 25: _(1, 2, 3, …, 24, 25)_
 2.  Exibir os números de 25 a 1: _(25, 24, 23, …, 2, 1)_
 3.  Exibir os números de -1 a -25: _(-1, -2, -3, …, -24, -25)_
