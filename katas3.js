@@ -71,12 +71,18 @@ kata5();
 
 function kata5() {
     //Exibir os números ímpares de 25 a -25: (25, 23, 21, …, -23, -25)
+
     let arr = [];
-    for (let i = 25; i >= -25; i--) {
+    let a = 26;
+    for (let i = 0; i <= 52; i++) {
         if (i % 2 == 1) {
-            arr.push(i);
+            arr.push(a);
+
         }
+        a--;
     }
+
+
     let kata = 'Exibir os números ímpares de 25 a -25: (25, 23, 21, …, -23, -25)';
     resultado(arr, kata);
 
@@ -111,17 +117,19 @@ function kata7() {
     resultado(arr, kata);
 }
 
+kata8();
+
 function kata8() {
     // implemente o código do kata 8 aqui
 
     let arr = [];
 
-    for (let i = 100; i >= 0; i--) {
+    for (let i = 100; i >= 1; i--) {
         if (i % 3 == 0 || i % 7 == 0) {
             arr.push(i);
         }
     }
-    let kata = 'Exibir os números divisíveis por 3 e os números divisíveis por 7 regressivamente a partir do 100: (99, 98, 96, 93, 91, …, 14, 12, 9, 7, 6, 3)';
+    let kata = '8 Exibir os números divisíveis por 3 e os números divisíveis por 7 regressivamente a partir do 100: (99, 98, 96, 93, 91, …, 14, 12, 9, 7, 6, 3)';
     resultado(arr, kata);
 }
 
